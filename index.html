@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">PORTFOLIO</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  
+  <!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm MONIKA B S!</h1>
+      <p>"Welcome! Take a look around and see what inspires me."</p>
+      <p>Electronics and Communication Engineer | PRESIDENCY UNIVERSITY</p>
+      <p>"Dreams don’t work unless you do." </p>
+      <a href="#projects" class="cta-button">Explore My Work</a>
+    </div>
+  </section>
+  
+
+  <!-- About Me Section -->
+<section id="about">
+    <div class="profile-pic">
+      <img src="profile.jpg" alt="Profile Picture">
+    </div>
+    <div class="about-content">
+      <h2>About Me</h2>
+      <ul class="fun-facts">
+        <li>I am a third-year Electronics and Communication Engineering student at Presidency University, where I have developed a solid foundation in electronic circuits, signal processing, and communication systems. My academic journey has been complemented by hands-on projects that have allowed me to apply theoretical concepts to real-world challenges, sparking my passion for innovation and problem-solving.</li>
+        <li>In addition to my coursework, I have actively participated in technical clubs and competitions, collaborating with peers to design and implement creative solutions. These experiences have not only enhanced my technical skills but also strengthened my abilities in teamwork, leadership, and project management.</li>
+        <li>As I look to the future, I am excited to bring my knowledge and skills to the professional world, particularly in areas such as PCB design, embedded systems, and wireless communication technologies. With a commitment to continuous learning and a drive for excellence, I am eager to contribute to advancements in the field of electronics and communication engineering.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="skills-container">
+        <h2>Skills</h2>
+      <!-- Technical Skills -->
+      <div class="skill-category">
+        <h4>Technical Skills</h4>
+        <div class="skill-card">
+          <img src="path-to-image/cprogramming.png" alt="C Programming">
+          <div class="skill-info">
+            <h4>C Programming</h4>
+            <p>Acquired skills in C programming to develop efficient algorithms and robust software solutions.</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <img src="path-to-image/python.png" alt="Python">
+          <div class="skill-info">
+            <h4>Python</h4>
+            <p>Proficient in scripting and data analysis.</p>
+          </div>
+        </div>
+        <div class="skill-card">
+            <img src="path-to-image/pcbdesign.png" alt="PCB Design">
+            <div class="skill-info">
+              <h4>PCB Deisgn</h4>
+              <p>Gained hands-on experience in creating and optimizing circuit board layouts for various applications.</p>
+            </div>
+          </div>
+        <!-- Add more technical skills here -->
+      </div>
+  
+      <!-- Soft Skills -->
+      <div class="skill-category">
+        <h4>Soft Skills</h4>
+        <div class="skill-card">
+          <img src="path-to-image/communication.png" alt="Communication">
+          <div class="skill-info">
+            <h4>Communication</h4>
+            <p>Excellent verbal and written skills.</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <img src="path-to-image/teamwork.png" alt="Teamwork">
+          <div class="skill-info">
+            <h4>Teamwork</h4>
+            <p>Strong ability to work collaboratively in teams.</p>
+          </div>
+        </div>
+        <!-- Add more soft skills here -->
+      </div>
+    </div>
+  </section>
+  
+ <!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-gallery">
+    <!-- Project Items -->
+    <div class="project-item">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Smart Precision Agriculture System for Optimal Crop Cultivation</h3>
+      <a href="project1.html" class="project-link">View More</a>
+    </div>
+    <!-- Add more projects as needed -->
+     <!--project 2-->
+     <div class="project-item">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>3D Scanning Machine Using Arduino</h3>
+      <a href="project2.html" class="project-link">View More</a>
+    </div>
+  </div>
+</section>
+
+ 
+  <!-- Blog Section (Optional) -->
+  <section id="blog">
+    <h2>Recent Posts</h2>
+    <div class="blog-post">
+      <h3>Post Title</h3>
+      <p>Post excerpt...</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+    <!-- Add more blog posts as needed -->
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-form">
+    <form id="contactForm" action="send_email.php" method="post">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Send Message</button>
+      </div>
+      <div id="formResponse"></div>
+    </form>
+  </div>
+</section>
+
+  
+  
+
+  <!-- Social Media Section -->
+  <section id="social-media">
+    <h2>Connect with Me</h2>
+    <div class="social-icons">
+    
+      <a href="https://www.linkedin.com/in/monika-b-s-b7467225a" target="_blank" class="social-icon" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        <span class="sr-only">LinkedIn</span>
+      </a>
+      <a href="https://github.com/MONIKA-B-S/MONIKA-B-S.git" target="_blank" class="social-icon" title="GitHub">
+        <i class="fab fa-github"></i>
+        <span class="sr-only">GitHub</span>
+      </a>
+      <a href="https://www.instagram.com/moni_siddu?igsh=MXB1bnFsMDd4a21sdw==" target="_blank" class="social-icon" title="Instagram">
+        <i class="fab fa-instagram"></i>
+        <span class="sr-only">Instagram</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <!-- Social Media Icons -->
+    </div>
+    <p>© 2024, Monika B S. All rights reserved.</p>
+  </footer>
+
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" aria-label="Toggle Dark/Light Theme">Toggle Theme</button>
+
+  <!-- Include JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

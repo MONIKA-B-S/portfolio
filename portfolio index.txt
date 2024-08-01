@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">MONIKA B S</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <!-- Social Media Links -->
+        <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/monika-b-s-b7467225a" target="_blank" class="social-icon" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/MONIKA-B-S/MONIKA-B-S.git" target="_blank" class="social-icon" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/moni_siddu?igsh=MXB1bnFsMDd4a21sdw==" target="_blank" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm MONIKA B S!</h1>
+      <p>Aspiring Electronics and Communication Engineer | PRESIDENCY UNIVERSITY</p>
+      <a href="#projects" class="cta-button">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="profile-pic">
+      <img src="profile.jpg" alt="Profile Picture">
+    </div>
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>[Brief Introduction]</p>
+      <ul class="fun-facts">
+        <li>Fact 1</li>
+        <li>Fact 2</li>
+        <li>Fact 3</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-icons">
+      <!-- Skill Icons -->
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-gallery">
+      <!-- Project Items -->
+      <div class="project-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project Title 1</h3>
+        <p>[Brief Description]</p>
+        <a href="#" class="project-link">View More</a>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <!-- Testimonials Section (Optional) -->
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-item">
+      <blockquote>"Testimonial Quote"</blockquote>
+      <p>- Name, Title</p>
+    </div>
+    <!-- Add more testimonials as needed -->
+  </section>
+
+  <!-- Blog Section (Optional) -->
+  <section id="blog">
+    <h2>Recent Posts</h2>
+    <div class="blog-post">
+      <h3>Post Title</h3>
+      <p>Post excerpt...</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+    <!-- Add more blog posts as needed -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: monikasiddu2004@gmail.com</p>
+      <p>Phone: 7349652706</p>
+    </div>
+  </section>
+
+
+
+  <!-- Social Media Section -->
+  <section id="social-media">
+    <h2>Connect with Me</h2>
+    <div class="social-icons">
+      <!-- Social Media Links -->
+
+<a href="https://twitter.com/yourprofile" target="_blank" class="social-icon" title="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/monika-b-s-b7467225a" target="_blank" class="social-icon" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/MONIKA-B-S/MONIKA-B-S.git" target="_blank" class="social-icon" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.instagram.com/moni_siddu?igsh=MXB1bnFsMDd4a21sdw==" target="_blank" class="social-icon" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  
+  
+    </div>
+  </section>
+
+
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <!-- Social Media Icons -->
+    </div>
+    <p>© 2024 , Monika B S. All rights reserved.</p>
+  </footer>
+    
+</body>
+</html>
+
+
+
+
+
+

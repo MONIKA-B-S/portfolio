@@ -1,0 +1,461 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background-color: #121212;
+  }
+  
+  a {
+    color: #bb86fc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    padding: 1rem 0;
+    border-bottom: 2px solid #bb86fc;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  header ul li {
+    margin: 0;
+  }
+  
+  header ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header ul li a:hover {
+    color: #bb86fc;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 120px 20px;
+    border-bottom: 5px solid #bb86fc;
+  }
+  
+  #hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  #hero .cta-button {
+    background: #bb86fc;
+    color: #121212;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #hero .cta-button:hover {
+    background: #a65e9c;
+    transform: scale(1.05);
+  }
+  
+  /* About Me Section */
+  #about {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  #about .profile-pic img {
+    border-radius: 50%;
+    max-width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  #about .about-content {
+    max-width: 600px;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+  }
+  
+  #about p {
+    margin: 0 0 1rem;
+  }
+  
+  #about ul.fun-facts {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #about ul.fun-facts li {
+    background: #333;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 60px 20px;
+    background: #1f1f1f;
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+    text-align: center;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 60px 20px;
+  }
+  
+  #projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+  }
+  
+  .projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-item {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project-item h3 {
+    margin: 10px 0;
+  }
+  
+  .project-link {
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .project-link:hover {
+    color: #a65e9c;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    padding: 60px 20px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+  }
+  
+  #testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+    text-align: center;
+  }
+  
+  .testimonial-item {
+    padding: 20px;
+    border-radius: 10px;
+    background: #333;
+  }
+  
+  .testimonial-item blockquote {
+    font-style: italic;
+    margin: 0;
+    color: #e0e0e0;
+  }
+  
+  .testimonial-item p {
+    margin: 10px 0 0;
+    color: #bb86fc;
+  }
+  
+  /* Blog Section */
+  #blog {
+    padding: 60px 20px;
+  }
+  
+  #blog h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+  }
+  
+  .blog-post {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .blog-post h3 {
+    margin: 0 0 10px;
+  }
+  
+  .read-more {
+    color: #bb86fc;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .read-more:hover {
+    color: #a65e9c;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 20px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #1f1f1f;
+    color: #e0e0e0;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #bb86fc;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  form button:hover {
+    background: #a65e9c;
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #bb86fc;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #e0e0e0;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #bb86fc;
+  }
+  
+  .footer-social {
+    margin-top: 10px;
+  }
+  
+  .footer-social a {
+    color: #bb86fc;
+    margin: 0 5px;
+    transition: color 0.3s;
+  }
+  
+  .footer-social a:hover {
+    color: #a65e9c;
+  }
+
+  /* Social Media Section */
+#social-media {
+    padding: 60px 20px;
+    text-align: center;
+    background: #1f1f1f;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  #social-media h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+    color: #e0e0e0;
+    font-size: 1.5rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-icon:hover {
+    background: #bb86fc;
+    color: #121212;
+  }
+  
+  /* Accessibility */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  /* Style for social media icons */
+.social-icons {
+    position: relative;
+  }
+  
+  .social-icon {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #000; /* Adjust color as needed */
+    font-size: 24px; /* Adjust size as needed */
+    text-decoration: none;
+  }
+  
+  /* Tooltip styling */
+  .social-icon::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ac00bf;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 15px; /* Adjust size as needed */
+  }
+  
+  /* Show the tooltip on hover */
+  .social-icon:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+  
